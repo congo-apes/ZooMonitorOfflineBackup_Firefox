@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "Local Storage Saver",
+  "version": "1.0",
+  "description": "Dumps the local storage of a website",
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "permissions": [
+    "<all_urls>",
+    "activeTab",
+    "downloads",
+    "alarms"
+  ],
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "icon16.png",
+    "32": "icon32.png",
+    "64": "icon64.png",
+    "128": "icon128.png"
+  }
+}
